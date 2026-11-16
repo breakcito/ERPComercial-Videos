@@ -13,6 +13,7 @@ import script10 from "../content/processes/10-programacion-despachos.json";
 import script11 from "../content/processes/11-valorizacion-venta.json";
 import script12 from "../content/processes/12-anticipos.json";
 import script13 from "../content/processes/13-contabilidad.json";
+import script14 from "../content/processes/14-condiciones-comerciales.json";
 import manifest01 from "./generated/processes/01-programacion-unidades.json";
 import manifest02 from "./generated/processes/02-recepcion-unidades.json";
 import manifest03 from "./generated/processes/03-recepcion-visitas.json";
@@ -26,6 +27,7 @@ import manifest10 from "./generated/processes/10-programacion-despachos.json";
 import manifest11 from "./generated/processes/11-valorizacion-venta.json";
 import manifest12 from "./generated/processes/12-anticipos.json";
 import manifest13 from "./generated/processes/13-contabilidad.json";
+import manifest14 from "./generated/processes/14-condiciones-comerciales.json";
 
 export type Beat = {
   id: string;
@@ -172,6 +174,7 @@ export const VIDEOS: VideoData[] = [
   build(script11 as unknown as RawScript, manifest11 as unknown as RawManifest),
   build(script12 as unknown as RawScript, manifest12 as unknown as RawManifest),
   build(script13 as unknown as RawScript, manifest13 as unknown as RawManifest),
+  build(script14 as unknown as RawScript, manifest14 as unknown as RawManifest),
 ];
 
 export const VIDEO_BY_ID = new Map(VIDEOS.map((v) => [v.id, v]));

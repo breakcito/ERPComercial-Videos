@@ -1583,6 +1583,106 @@ const VIDEOS = [
       { id: "s_cierre", photo: "plant/cierre-amanecer.jpg", role: null, beats: [CIERRE] },
     ],
   },
+
+  {
+    id: "14-condiciones-comerciales",
+    title: "Condiciones Comerciales",
+    block: "Valorización",
+    blockNumber: "14",
+    scenes: [
+      {
+        id: "s1",
+        photo: "plant/p08-1-bocamina.jpg",
+        role: "Área comercial",
+        beats: [
+          {
+            id: "b01",
+            photo: "plant/p08-1-bocamina.jpg",
+            layout: "lower",
+            moment: "problema",
+            vo: "Cada proveedor y cliente negocia sus propias reglas. Configurarlas una sola vez evita recalcularlas en cada lote.",
+            onScreen: "Reglas comerciales por proveedor y cliente",
+          },
+        ],
+      },
+      {
+        id: "s2",
+        photo: "plant/p08-2-propuesta.jpg",
+        role: "Área comercial",
+        screen: "condiciones",
+        beats: [
+          {
+            id: "b02",
+            photo: "plant/p08-2-propuesta.jpg",
+            layout: "panel",
+            vo: "Registras las condiciones comerciales por proveedor o por cliente, eligiendo si aplican para oro o para plata.",
+            onScreen: "Por proveedor o cliente, oro o plata",
+          },
+        ],
+      },
+      {
+        id: "s3",
+        photo: "plant/p08-3-lotes.jpg",
+        role: "Área comercial",
+        screen: "condiciones",
+        beats: [
+          {
+            id: "b03",
+            photo: "plant/p08-3-lotes.jpg",
+            layout: "panel",
+            vo: "Defines el rango de ley de inicio y ley fin para cada tramo de mineral que recibes o vendes.",
+            onScreen: "Rangos de ley de inicio y fin",
+          },
+        ],
+      },
+      {
+        id: "s4",
+        photo: "plant/p08-4-precio.jpg",
+        role: "Área comercial",
+        screen: "condiciones",
+        beats: [
+          {
+            id: "b04",
+            photo: "plant/p08-4-precio.jpg",
+            layout: "panel",
+            vo: "Ingresas los montos de maquila, recuperación, consumo y riesgo comercial correspondientes a ese rango.",
+            onScreen: "Maquila, recuperación, consumo y riesgo",
+          },
+        ],
+      },
+      {
+        id: "s5",
+        photo: "plant/p08-5-aprobacion.jpg",
+        role: "Área comercial",
+        screen: "condiciones",
+        beats: [
+          {
+            id: "b05",
+            photo: "plant/p08-5-aprobacion.jpg",
+            layout: "panel",
+            vo: "Al crear una nueva valorización de compra o venta, el sistema aplica estas condiciones de forma automática.",
+            onScreen: "Se aplican automático en cada valorización",
+          },
+        ],
+      },
+      {
+        id: "s6",
+        photo: "plant/p08-6-anticipo.jpg",
+        role: null,
+        screen: "condiciones",
+        beats: [
+          {
+            id: "b06",
+            photo: "plant/p08-6-anticipo.jpg",
+            layout: "lower",
+            vo: "Son valores referenciales para agilizar el trabajo: en cualquier momento puedes modificar los montos en la valorización.",
+            onScreen: "Valores referenciales que puedes modificar",
+          },
+        ],
+      },
+      { id: "s_cierre", photo: "plant/cierre-amanecer.jpg", role: null, beats: [CIERRE] },
+    ],
+  },
 ];
 
 /* ------------------------------------------------------------------ */

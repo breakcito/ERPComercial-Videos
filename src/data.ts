@@ -399,6 +399,42 @@ export const comprobanteVenta = {
   saldo: 15486.72,
 } as const;
 
+export const condicionesComerciales = [
+  {
+    tercero: proveedores.andes.nombre,
+    tipo: "Proveedor",
+    elemento: "Oro (Au)",
+    leyInicio: "0.00",
+    leyFin: "5.00 g/t",
+    maquila: "US$ 180",
+    recup: "90%",
+    consumo: "US$ 25",
+    riesgo: "US$ 15",
+  },
+  {
+    tercero: proveedores.andes.nombre,
+    tipo: "Proveedor",
+    elemento: "Oro (Au)",
+    leyInicio: "5.01",
+    leyFin: "15.00 g/t",
+    maquila: "US$ 160",
+    recup: "92%",
+    consumo: "US$ 20",
+    riesgo: "US$ 12",
+  },
+  {
+    tercero: clientes.aurora,
+    tipo: "Cliente",
+    elemento: "Plata (Ag)",
+    leyInicio: "10.00",
+    leyFin: "50.00 g/t",
+    maquila: "US$ 120",
+    recup: "85%",
+    consumo: "US$ 15",
+    riesgo: "US$ 10",
+  },
+] as const;
+
 /* ------------------------------------------------------------------ */
 /* Ciclo completo (para el video general)                              */
 /* ------------------------------------------------------------------ */

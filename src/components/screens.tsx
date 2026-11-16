@@ -7,6 +7,7 @@ import {
   cicloModulos,
   comprobanteCompra,
   comprobanteVenta,
+  condicionesComerciales,
   despacho,
   guiasRecepcion,
   laboratorios,
@@ -996,7 +997,73 @@ export const ContabilidadScreen: React.FC = () => (
 );
 
 /* ================================================================== */
-/* 14. Ciclo completo (video general)                                  */
+/* 14. Condiciones comerciales                                        */
+/* ================================================================== */
+
+export const CondicionesComercialesScreen: React.FC = () => (
+  <Screen>
+    <AppBar
+      title="Condiciones comerciales"
+      right={<Chip label="Referencial · Editable" tone="amber" />}
+    />
+
+    <Enter delay={6}>
+      <div style={{ display: "flex", gap: 16 }}>
+        <KV label="Aplica a" value="Proveedor / Cliente" width={260} />
+        <KV label="Elementos" value="Oro (Au) · Plata (Ag)" width={260} />
+        <KV label="Reglas" value="Por rango de ley" width={230} />
+      </div>
+    </Enter>
+
+    <Enter delay={16}>
+      <Row style={{ paddingTop: 0, borderBottom: `1px solid ${palette.line}` }}>
+        <Th width={180}>Tercero</Th>
+        <Th width={110}>Elemento</Th>
+        <Th width={140}>Ley inicio–fin</Th>
+        <Th width={110} align="right">Maquila</Th>
+        <Th width={90} align="right">Recup.</Th>
+        <Th width={110} align="right">Consumo</Th>
+        <Th width={110} align="right">Riesgo</Th>
+      </Row>
+      {condicionesComerciales.map((c, i) => (
+        <Row key={`${c.tercero}-${i}`}>
+          <Td width={180} size={16}>
+            {c.tipo} · {c.tercero.split(" ")[1]}
+          </Td>
+          <Td width={110} mono color={c.elemento.startsWith("Oro") ? palette.amberBright : palette.steel}>
+            {c.elemento.split(" ")[0]}
+          </Td>
+          <Td width={140} mono>
+            {c.leyInicio}–{c.leyFin}
+          </Td>
+          <Td width={110} align="right" mono>
+            {c.maquila}
+          </Td>
+          <Td width={90} align="right" mono>
+            {c.recup}
+          </Td>
+          <Td width={110} align="right" mono>
+            {c.consumo}
+          </Td>
+          <Td width={110} align="right" mono>
+            {c.riesgo}
+          </Td>
+        </Row>
+      ))}
+    </Enter>
+
+    <Enter delay={36}>
+      <Foot tone="amber">
+        <div style={{ flex: 1, fontFamily: font.sans, fontSize: 18, color: palette.textDim }}>
+          Se aplican al crear valorizaciones · Todos los montos son editables
+        </div>
+      </Foot>
+    </Enter>
+  </Screen>
+);
+
+/* ================================================================== */
+/* 15. Ciclo completo (video general)                                 */
 /* ================================================================== */
 
 export const CicloScreen: React.FC<{ activo?: number }> = ({ activo }) => {
@@ -1094,4 +1161,5 @@ export const SCREENS: Record<string, React.FC<{ activo?: number }>> = {
   venta: VentaScreen,
   anticipos: AnticiposScreen,
   contabilidad: ContabilidadScreen,
+  condiciones: CondicionesComercialesScreen,
 };
