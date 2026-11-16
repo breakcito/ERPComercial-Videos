@@ -6,8 +6,8 @@
   "fps": 30,
   "voice": "Paulina",
   "rate": 200,
-  "totalFrames": 1229,
-  "totalSeconds": 40.97,
+  "totalFrames": 1244,
+  "totalSeconds": 41.47,
   "brand": {
     "name": "ERP COMERCIAL",
     "fullName": "ERP para comercializadoras de minerales",
@@ -19,77 +19,77 @@
       "sceneId": "s1",
       "file": "vo/11-valorizacion-venta/b01.mp3",
       "startFrame": 7,
-      "durationInFrames": 154,
+      "durationInFrames": 169,
       "startMs": 220,
-      "endMs": 5346
+      "endMs": 5846
     },
     {
       "id": "b02",
       "sceneId": "s2",
       "file": "vo/11-valorizacion-venta/b02.mp3",
-      "startFrame": 194,
+      "startFrame": 209,
       "durationInFrames": 152,
-      "startMs": 6466,
-      "endMs": 11523
+      "startMs": 6966,
+      "endMs": 12022
     },
     {
       "id": "b03",
       "sceneId": "s3",
       "file": "vo/11-valorizacion-venta/b03.mp3",
-      "startFrame": 379,
+      "startFrame": 394,
       "durationInFrames": 167,
-      "startMs": 12643,
-      "endMs": 18212
+      "startMs": 13142,
+      "endMs": 18711
     },
     {
       "id": "b04",
       "sceneId": "s4",
       "file": "vo/11-valorizacion-venta/b04.mp3",
-      "startFrame": 580,
+      "startFrame": 595,
       "durationInFrames": 135,
-      "startMs": 19332,
-      "endMs": 23831
+      "startMs": 19831,
+      "endMs": 24330
     },
     {
       "id": "b05",
       "sceneId": "s5",
       "file": "vo/11-valorizacion-venta/b05.mp3",
-      "startFrame": 749,
+      "startFrame": 764,
       "durationInFrames": 144,
-      "startMs": 24951,
-      "endMs": 29740
+      "startMs": 25450,
+      "endMs": 30240
     },
     {
       "id": "b06",
       "sceneId": "s6",
       "file": "vo/11-valorizacion-venta/b06.mp3",
-      "startFrame": 926,
+      "startFrame": 941,
       "durationInFrames": 144,
-      "startMs": 30860,
-      "endMs": 35673
+      "startMs": 31360,
+      "endMs": 36172
     },
     {
       "id": "b_cierre",
       "sceneId": "s_cierre",
       "file": "vo/11-valorizacion-venta/b_cierre.mp3",
-      "startFrame": 1104,
+      "startFrame": 1119,
       "durationInFrames": 72,
-      "startMs": 36793,
-      "endMs": 39179
+      "startMs": 37292,
+      "endMs": 39678
     }
   ],
   "scenes": [
     {
       "id": "s1",
       "startFrame": 0,
-      "durationInFrames": 193,
+      "durationInFrames": 208,
       "beatIds": [
         "b01"
       ]
     },
     {
       "id": "s2",
-      "startFrame": 187,
+      "startFrame": 202,
       "durationInFrames": 191,
       "beatIds": [
         "b02"
@@ -97,7 +97,7 @@
     },
     {
       "id": "s3",
-      "startFrame": 373,
+      "startFrame": 388,
       "durationInFrames": 207,
       "beatIds": [
         "b03"
@@ -105,7 +105,7 @@
     },
     {
       "id": "s4",
-      "startFrame": 573,
+      "startFrame": 588,
       "durationInFrames": 175,
       "beatIds": [
         "b04"
@@ -113,7 +113,7 @@
     },
     {
       "id": "s5",
-      "startFrame": 742,
+      "startFrame": 757,
       "durationInFrames": 183,
       "beatIds": [
         "b05"
@@ -121,7 +121,7 @@
     },
     {
       "id": "s6",
-      "startFrame": 919,
+      "startFrame": 934,
       "durationInFrames": 184,
       "beatIds": [
         "b06"
@@ -129,7 +129,7 @@
     },
     {
       "id": "s_cierre",
-      "startFrame": 1097,
+      "startFrame": 1112,
       "durationInFrames": 132,
       "beatIds": [
         "b_cierre"

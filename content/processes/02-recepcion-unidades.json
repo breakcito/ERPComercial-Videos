@@ -26,8 +26,8 @@
           "photo": "plant/p02-1-espera.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "Llega un camión sin aviso. La garita lo anota en un cuaderno y el resto de la planta no se entera.",
-          "onScreen": "Un camión sin aviso"
+          "vo": "Llega un camión con mineral. Vigilancia registra el transportista, la placa, el conductor y el vehículo.",
+          "onScreen": "Cada unidad que entra, registrada"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "photo": "plant/p02-2-libreta.jpg",
           "layout": "panel",
           "vo": "Vigilancia registra el ingreso: empresa de transporte, placa, conductor y tipo de vehículo pesado.",
-          "onScreen": "Transportista, placa, conductor y vehículo"
+          "onScreen": "Quién entró, con qué unidad"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "photo": "plant/p02-3-bitacora.jpg",
           "layout": "panel",
           "vo": "Si trae guías, se registran. También los vehículos acompañantes y los acompañantes de cabina de la unidad.",
-          "onScreen": "Guías, acompañantes y cabina"
+          "onScreen": "También el vehículo acompañante"
         }
       ]
     },
@@ -71,8 +71,8 @@
           "id": "b04",
           "photo": "plant/p02-6-programado.jpg",
           "layout": "panel",
-          "vo": "Y si el camión llega sin programar, también se registra. El ingreso no depende de que alguien lo anotara antes.",
-          "onScreen": "También entra lo que llega sin programar"
+          "vo": "El camión puede llegar programado o no. En los dos casos, el ingreso queda registrado.",
+          "onScreen": "Programado o no, queda registrado"
         }
       ]
     },
@@ -86,7 +86,7 @@
           "id": "b05",
           "photo": "plant/p02-4-evidencia.jpg",
           "layout": "panel",
-          "vo": "Puedes adjuntar fotos y videos como evidencia del ingreso, para respaldar lo que viste en la garita.",
+          "vo": "Puedes adjuntar fotos y videos como evidencia del ingreso.",
           "onScreen": "Fotos y videos como evidencia"
         }
       ]

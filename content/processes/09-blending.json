@@ -26,8 +26,8 @@
           "photo": "plant/p09-1-acopios.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "El cliente pide un mineral con leyes específicas. Los lotes que tienes comprados no dan esa ley solos.",
-          "onScreen": "El cliente pide leyes que no tienes"
+          "vo": "El cliente pide una ley de oro y plata. Los lotes que tienes comprados no la dan por separado.",
+          "onScreen": "Los lotes no dan esa ley por separado"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "photo": "plant/p09-3-panel.jpg",
           "layout": "panel",
           "vo": "En modo inteligente fijas el peso máximo, las leyes requeridas y el precio del mineral que quieres vender.",
-          "onScreen": "Peso máximo, leyes requeridas y precio"
+          "onScreen": "Tú fijas la ley y el precio"
         }
       ]
     },

@@ -26,8 +26,8 @@
           "photo": "plant/p07-1-muestras.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "El mineral llegó y ya fue pesado. Falta lo más discutido: la ley. Y no todos miden igual.",
-          "onScreen": "Falta la ley, y no todos miden igual"
+          "vo": "El mineral ya está pesado y en planta. Falta la ley: quién la midió, en qué laboratorio y con qué ensayo.",
+          "onScreen": "Quién midió, dónde y con qué ensayo"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "photo": "plant/p07-2-informe.jpg",
           "layout": "panel",
           "vo": "Por cada análisis registras el laboratorio donde se hizo, quién se hace cargo y el número de ensayo.",
-          "onScreen": "Laboratorio, responsable y ensayo"
+          "onScreen": "Cada análisis, con su ensayo"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "photo": "plant/p07-3-analizador.jpg",
           "layout": "panel",
           "vo": "Se registran las leyes de oro y plata, la humedad del mineral y la recuperación obtenida.",
-          "onScreen": "Oro, plata, humedad y recuperación"
+          "onScreen": "Lo que el laboratorio midió"
         }
       ]
     },

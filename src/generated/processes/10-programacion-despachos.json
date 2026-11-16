@@ -6,8 +6,8 @@
   "fps": 30,
   "voice": "Paulina",
   "rate": 200,
-  "totalFrames": 1287,
-  "totalSeconds": 42.9,
+  "totalFrames": 1311,
+  "totalSeconds": 43.7,
   "brand": {
     "name": "ERP COMERCIAL",
     "fullName": "ERP para comercializadoras de minerales",
@@ -19,77 +19,77 @@
       "sceneId": "s1",
       "file": "vo/10-programacion-despachos/b01.mp3",
       "startFrame": 7,
-      "durationInFrames": 179,
+      "durationInFrames": 203,
       "startMs": 220,
-      "endMs": 6194
+      "endMs": 6995
     },
     {
       "id": "b02",
       "sceneId": "s2",
       "file": "vo/10-programacion-despachos/b02.mp3",
-      "startFrame": 219,
+      "startFrame": 243,
       "durationInFrames": 143,
-      "startMs": 7314,
-      "endMs": 12080
+      "startMs": 8115,
+      "endMs": 12881
     },
     {
       "id": "b03",
       "sceneId": "s3",
       "file": "vo/10-programacion-despachos/b03.mp3",
-      "startFrame": 396,
+      "startFrame": 420,
       "durationInFrames": 157,
-      "startMs": 13200,
-      "endMs": 18431
+      "startMs": 14001,
+      "endMs": 19232
     },
     {
       "id": "b04",
       "sceneId": "s4",
       "file": "vo/10-programacion-despachos/b04.mp3",
-      "startFrame": 587,
+      "startFrame": 611,
       "durationInFrames": 167,
-      "startMs": 19551,
-      "endMs": 25106
+      "startMs": 20352,
+      "endMs": 25908
     },
     {
       "id": "b05",
       "sceneId": "s5",
       "file": "vo/10-programacion-despachos/b05.mp3",
-      "startFrame": 787,
+      "startFrame": 811,
       "durationInFrames": 137,
-      "startMs": 26226,
-      "endMs": 30796
+      "startMs": 27028,
+      "endMs": 31597
     },
     {
       "id": "b06",
       "sceneId": "s6",
       "file": "vo/10-programacion-despachos/b06.mp3",
-      "startFrame": 957,
+      "startFrame": 982,
       "durationInFrames": 170,
-      "startMs": 31916,
-      "endMs": 37587
+      "startMs": 32717,
+      "endMs": 38388
     },
     {
       "id": "b_cierre",
       "sceneId": "s_cierre",
       "file": "vo/10-programacion-despachos/b_cierre.mp3",
-      "startFrame": 1161,
+      "startFrame": 1185,
       "durationInFrames": 72,
-      "startMs": 38707,
-      "endMs": 41094
+      "startMs": 39508,
+      "endMs": 41895
     }
   ],
   "scenes": [
     {
       "id": "s1",
       "startFrame": 0,
-      "durationInFrames": 219,
+      "durationInFrames": 243,
       "beatIds": [
         "b01"
       ]
     },
     {
       "id": "s2",
-      "startFrame": 213,
+      "startFrame": 237,
       "durationInFrames": 183,
       "beatIds": [
         "b02"
@@ -97,7 +97,7 @@
     },
     {
       "id": "s3",
-      "startFrame": 389,
+      "startFrame": 413,
       "durationInFrames": 197,
       "beatIds": [
         "b03"
@@ -105,7 +105,7 @@
     },
     {
       "id": "s4",
-      "startFrame": 580,
+      "startFrame": 604,
       "durationInFrames": 206,
       "beatIds": [
         "b04"
@@ -113,7 +113,7 @@
     },
     {
       "id": "s5",
-      "startFrame": 780,
+      "startFrame": 804,
       "durationInFrames": 177,
       "beatIds": [
         "b05"
@@ -121,7 +121,7 @@
     },
     {
       "id": "s6",
-      "startFrame": 951,
+      "startFrame": 975,
       "durationInFrames": 210,
       "beatIds": [
         "b06"
@@ -129,7 +129,7 @@
     },
     {
       "id": "s_cierre",
-      "startFrame": 1155,
+      "startFrame": 1179,
       "durationInFrames": 132,
       "beatIds": [
         "b_cierre"

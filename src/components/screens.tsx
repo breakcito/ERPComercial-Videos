@@ -303,7 +303,7 @@ export const BalanzaScreen: React.FC = () => (
               marginBottom: 4,
             }}
           >
-            Peso neto del lote · bruto menos tara
+            Peso neto del lote LT-0001
           </div>
           <div style={{ fontFamily: font.mono, fontSize: 26, color: palette.text }}>
             24,830 kg
@@ -451,7 +451,7 @@ export const GuiasScreen: React.FC = () => (
     <Enter delay={36}>
       <Foot tone="amber">
         <div style={{ flex: 1, fontFamily: font.sans, fontSize: 19, color: palette.textDim }}>
-          El peso en la guía es documental. El peso real es el de balanza.
+          El peso de la guía es documental; el peso real es el de balanza.
         </div>
       </Foot>
     </Enter>

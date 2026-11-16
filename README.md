@@ -72,6 +72,9 @@ peso y el precio, de modo que el neto, el valor y el saldo cuadran entre si.
 - maximo 8 palabras por texto en pantalla
 - locucion de cierre exacta y CTA en pantalla identico al brief
 - ausencia de cliches, porcentajes inventados y terminos vetados
+- ausencia del preambulo de manual: nada de "cuadernos, WhatsApp y planillas",
+  "cada uno con su version", "sin rastro", "nadie sabe"
 - una foto distinta por escena dentro de cada video
 - panel de sistema en toda escena de contenido
 - primer beat = situacion problema, ultimo beat = cierre
+- el landing tampoco usa esas frases

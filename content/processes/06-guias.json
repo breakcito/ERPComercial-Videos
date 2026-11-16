@@ -26,8 +26,8 @@
           "photo": "plant/p06-1-cuaderno.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "Cada carro que entra a planta trae su guía de transporte. Si se anotan en un cuaderno, nadie las encuentra.",
-          "onScreen": "Cada carro trae una guía"
+          "vo": "Cada carro que entra a planta trae su guía de transporte. Esa guía dice qué lote trajo.",
+          "onScreen": "La guía dice qué lote trajo"
         }
       ]
     },
@@ -72,7 +72,7 @@
           "photo": "plant/p06-6-peso.jpg",
           "layout": "panel",
           "vo": "Se puede indicar el peso de cada lote dentro de la guía, para completar el documento de transporte.",
-          "onScreen": "El peso de cada lote en la guía"
+          "onScreen": "El peso, como dato documental"
         }
       ]
     },
@@ -87,7 +87,7 @@
           "photo": "plant/p06-4-laptop.jpg",
           "layout": "panel",
           "vo": "Ese peso es solo documental. El peso real de cada lote es el que registró la balanza.",
-          "onScreen": "Documental. El real es el de balanza"
+          "onScreen": "El peso real es el de balanza"
         }
       ]
     },

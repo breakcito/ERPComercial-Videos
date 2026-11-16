@@ -6,8 +6,8 @@
   "fps": 30,
   "voice": "Paulina",
   "rate": 200,
-  "totalFrames": 2150,
-  "totalSeconds": 71.67,
+  "totalFrames": 2201,
+  "totalSeconds": 73.37,
   "brand": {
     "name": "ERP COMERCIAL",
     "fullName": "ERP para comercializadoras de minerales",
@@ -18,255 +18,255 @@
       "id": "b01",
       "sceneId": "s1",
       "file": "vo/00-general/b01.mp3",
-      "startFrame": 4,
-      "durationInFrames": 153,
-      "startMs": 120,
-      "endMs": 5212
+      "startFrame": 5,
+      "durationInFrames": 157,
+      "startMs": 160,
+      "endMs": 5379
     },
     {
       "id": "b02",
       "sceneId": "s2",
       "file": "vo/00-general/b02.mp3",
-      "startFrame": 169,
+      "startFrame": 178,
       "durationInFrames": 117,
-      "startMs": 5632,
-      "endMs": 9516
+      "startMs": 5919,
+      "endMs": 9803
     },
     {
       "id": "b03",
       "sceneId": "s3",
       "file": "vo/00-general/b03.mp3",
-      "startFrame": 298,
+      "startFrame": 310,
       "durationInFrames": 110,
-      "startMs": 9936,
-      "endMs": 13587
+      "startMs": 10343,
+      "endMs": 13994
     },
     {
       "id": "b04",
       "sceneId": "s4",
       "file": "vo/00-general/b04.mp3",
-      "startFrame": 420,
+      "startFrame": 436,
       "durationInFrames": 149,
-      "startMs": 14007,
-      "endMs": 18982
+      "startMs": 14534,
+      "endMs": 19510
     },
     {
       "id": "b05",
       "sceneId": "s5",
       "file": "vo/00-general/b05.mp3",
-      "startFrame": 582,
+      "startFrame": 601,
       "durationInFrames": 139,
-      "startMs": 19402,
-      "endMs": 24041
+      "startMs": 20050,
+      "endMs": 24689
     },
     {
       "id": "b06",
       "sceneId": "s6",
       "file": "vo/00-general/b06.mp3",
-      "startFrame": 734,
+      "startFrame": 757,
       "durationInFrames": 108,
-      "startMs": 24461,
-      "endMs": 28076
+      "startMs": 25229,
+      "endMs": 28844
     },
     {
       "id": "b07",
       "sceneId": "s7",
       "file": "vo/00-general/b07.mp3",
-      "startFrame": 855,
-      "durationInFrames": 121,
-      "startMs": 28496,
-      "endMs": 32543
+      "startFrame": 882,
+      "durationInFrames": 127,
+      "startMs": 29384,
+      "endMs": 33605
     },
     {
       "id": "b08",
       "sceneId": "s8",
       "file": "vo/00-general/b08.mp3",
-      "startFrame": 989,
+      "startFrame": 1024,
       "durationInFrames": 110,
-      "startMs": 32963,
-      "endMs": 36621
+      "startMs": 34145,
+      "endMs": 37803
     },
     {
       "id": "b09",
       "sceneId": "s9",
       "file": "vo/00-general/b09.mp3",
-      "startFrame": 1111,
+      "startFrame": 1150,
       "durationInFrames": 114,
-      "startMs": 37041,
-      "endMs": 40843
+      "startMs": 38343,
+      "endMs": 42145
     },
     {
       "id": "b10",
       "sceneId": "s10",
       "file": "vo/00-general/b10.mp3",
-      "startFrame": 1238,
+      "startFrame": 1281,
       "durationInFrames": 117,
-      "startMs": 41263,
-      "endMs": 45147
+      "startMs": 42685,
+      "endMs": 46569
     },
     {
       "id": "b11",
       "sceneId": "s11",
       "file": "vo/00-general/b11.mp3",
-      "startFrame": 1367,
+      "startFrame": 1413,
       "durationInFrames": 119,
-      "startMs": 45567,
-      "endMs": 49544
+      "startMs": 47109,
+      "endMs": 51086
     },
     {
       "id": "b12",
       "sceneId": "s12",
       "file": "vo/00-general/b12.mp3",
-      "startFrame": 1499,
-      "durationInFrames": 122,
-      "startMs": 49964,
-      "endMs": 54046
+      "startFrame": 1549,
+      "durationInFrames": 118,
+      "startMs": 51626,
+      "endMs": 55557
     },
     {
       "id": "b13",
       "sceneId": "s13",
       "file": "vo/00-general/b13.mp3",
-      "startFrame": 1634,
+      "startFrame": 1683,
       "durationInFrames": 136,
-      "startMs": 54466,
-      "endMs": 58988
+      "startMs": 56097,
+      "endMs": 60619
     },
     {
       "id": "b14",
       "sceneId": "s14",
       "file": "vo/00-general/b14.mp3",
-      "startFrame": 1782,
-      "durationInFrames": 130,
-      "startMs": 59408,
-      "endMs": 63758
+      "startFrame": 1835,
+      "durationInFrames": 122,
+      "startMs": 61159,
+      "endMs": 65242
     },
     {
       "id": "b_cierre",
       "sceneId": "s_cierre",
       "file": "vo/00-general/b_cierre.mp3",
-      "startFrame": 1925,
+      "startFrame": 1973,
       "durationInFrames": 173,
-      "startMs": 64178,
-      "endMs": 69954
+      "startMs": 65782,
+      "endMs": 71558
     }
   ],
   "scenes": [
     {
       "id": "s1",
       "startFrame": 0,
-      "durationInFrames": 171,
+      "durationInFrames": 179,
       "beatIds": [
         "b01"
       ]
     },
     {
       "id": "s2",
-      "startFrame": 165,
-      "durationInFrames": 135,
+      "startFrame": 173,
+      "durationInFrames": 139,
       "beatIds": [
         "b02"
       ]
     },
     {
       "id": "s3",
-      "startFrame": 294,
-      "durationInFrames": 128,
+      "startFrame": 305,
+      "durationInFrames": 132,
       "beatIds": [
         "b03"
       ]
     },
     {
       "id": "s4",
-      "startFrame": 417,
-      "durationInFrames": 168,
+      "startFrame": 431,
+      "durationInFrames": 171,
       "beatIds": [
         "b04"
       ]
     },
     {
       "id": "s5",
-      "startFrame": 578,
-      "durationInFrames": 158,
+      "startFrame": 597,
+      "durationInFrames": 161,
       "beatIds": [
         "b05"
       ]
     },
     {
       "id": "s6",
-      "startFrame": 730,
-      "durationInFrames": 127,
+      "startFrame": 752,
+      "durationInFrames": 131,
       "beatIds": [
         "b06"
       ]
     },
     {
       "id": "s7",
-      "startFrame": 851,
-      "durationInFrames": 140,
+      "startFrame": 877,
+      "durationInFrames": 149,
       "beatIds": [
         "b07"
       ]
     },
     {
       "id": "s8",
-      "startFrame": 985,
-      "durationInFrames": 128,
+      "startFrame": 1020,
+      "durationInFrames": 132,
       "beatIds": [
         "b08"
       ]
     },
     {
       "id": "s9",
-      "startFrame": 1108,
-      "durationInFrames": 133,
+      "startFrame": 1145,
+      "durationInFrames": 136,
       "beatIds": [
         "b09"
       ]
     },
     {
       "id": "s10",
-      "startFrame": 1234,
-      "durationInFrames": 135,
+      "startFrame": 1276,
+      "durationInFrames": 139,
       "beatIds": [
         "b10"
       ]
     },
     {
       "id": "s11",
-      "startFrame": 1363,
-      "durationInFrames": 138,
+      "startFrame": 1408,
+      "durationInFrames": 142,
       "beatIds": [
         "b11"
       ]
     },
     {
       "id": "s12",
-      "startFrame": 1495,
-      "durationInFrames": 141,
+      "startFrame": 1544,
+      "durationInFrames": 140,
       "beatIds": [
         "b12"
       ]
     },
     {
       "id": "s13",
-      "startFrame": 1630,
-      "durationInFrames": 154,
+      "startFrame": 1678,
+      "durationInFrames": 158,
       "beatIds": [
         "b13"
       ]
     },
     {
       "id": "s14",
-      "startFrame": 1779,
-      "durationInFrames": 149,
+      "startFrame": 1830,
+      "durationInFrames": 145,
       "beatIds": [
         "b14"
       ]
     },
     {
       "id": "s_cierre",
-      "startFrame": 1922,
-      "durationInFrames": 228,
+      "startFrame": 1969,
+      "durationInFrames": 232,
       "beatIds": [
         "b_cierre"
       ]

@@ -10,7 +10,7 @@
  *   - Los datos de pantalla salen del modulo de datos, no al reves
  */
 
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -32,6 +32,29 @@ const VETADAS = [
   "líder del mercado",
   "sin esfuerzo",
   "magia",
+];
+
+/**
+ * Estas frases son el preámbulo de manual: "antes era un desastre, ahora
+ * es MAGIC". No describen la operacion, la pinchan. El brief pide presentar
+ * el caso y el sistema, no el管理系统 anterior.
+ */
+const PROHIBIDAS = [
+  "cuaderno",
+  "cuadernos",
+  "whatsapp",
+  "planilla",
+  "hoja de cálculo",
+  "hojas de cálculo",
+  "cada uno con su versión",
+  "sin rastro",
+  "nadie ",
+  "se pierde",
+  "se pierden",
+  "sin traumas",
+  "menús de veinte opciones",
+  "papel y planillas",
+  "papeles y planillas",
 ];
 
 const errores = [];
@@ -85,9 +108,24 @@ for (const { path, general } of scripts) {
       for (const v of VETADAS) {
         check(!vozMin.includes(v.toLowerCase()), `${id}/${beat.id}: la locucion usa "${v}"`);
       }
+      for (const v of PROHIBIDAS) {
+        check(
+          !vozMin.includes(v.toLowerCase()),
+          `${id}/${beat.id}: la locucion usa la frase de manual "${v}"`,
+        );
+      }
       const pantallaMin = beat.onScreen.toLowerCase();
       for (const v of VETADAS) {
         check(!pantallaMin.includes(v.toLowerCase()), `${id}/${beat.id}: el texto usa "${v}"`);
+      }
+      // El CTA lleva "WhatsApp" por obligacion del brief: se excluye.
+      if (beat.moment !== "marca") {
+        for (const v of PROHIBIDAS) {
+          check(
+            !pantallaMin.includes(v.toLowerCase()),
+            `${id}/${beat.id}: el texto en pantalla usa "${v}"`,
+          );
+        }
       }
 
       /* Cierre exacto */
@@ -150,6 +188,34 @@ for (const { path, general } of scripts) {
   console.log(
     `  ${id}: ${manifest.totalSeconds}s · ${script.scenes.length} escenas · ${fotos.size} fotos distintas`,
   );
+}
+
+/* ------------------------------------------------------------------ */
+/* El landing tampoco puede vender humo                                */
+/* ------------------------------------------------------------------ */
+
+const LANDING = join(ROOT, "..", "landing");
+if (existsSync(join(LANDING, "index.html"))) {
+  const html = readFileSync(join(LANDING, "index.html"), "utf8");
+  const js = readFileSync(join(LANDING, "js", "videos.js"), "utf8");
+  // El CTA obligatorio lleva "WhatsApp": se excluye del rastreo.
+  const texto = `${html}\n${js}`
+    .toLowerCase()
+    .replace(/whatsapp: 912 800 115/g, "")
+    .replace(/wa\.me\/51912800115/g, "")
+    .replace(/elige el whatsapp/g, "")
+    .replace(/whatsapp \/ teléfono/g, "")
+    .replace(/whatsapp \/ celular/g, "")
+    .replace(/whatsapp y teléfono/g, "")
+    .replace(/teléfono o whatsapp/g, "")
+    .replace(/abrir whatsapp/g, "")
+    .replace(/por whatsapp/g, "");
+  for (const v of PROHIBIDAS) {
+    check(!texto.includes(v.toLowerCase()), `landing: usa la frase de manual "${v}"`);
+  }
+  for (const v of VETADAS) {
+    check(!texto.includes(v.toLowerCase()), `landing: usa "${v}"`);
+  }
 }
 
 /* ------------------------------------------------------------------ */

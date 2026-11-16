@@ -26,8 +26,8 @@
           "photo": "plant/p04-1-bascula.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "El camión llega con mineral. En la balanza hay que anotar tara, bruto y neto, sin equivocar ni un kilo.",
-          "onScreen": "Tara, bruto y neto, sin errores"
+          "vo": "El camión llega con mineral. La balanza registra la tara, el bruto y el neto de cada unidad.",
+          "onScreen": "El peso real de cada unidad"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "photo": "plant/p04-2-formulario.jpg",
           "layout": "panel",
           "vo": "El lote se crea con código automático o digitado: proveedor, producto aurífero o polimetálico y tipo de material.",
-          "onScreen": "Proveedor, producto y tipo de material"
+          "onScreen": "Cada lote, con su proveedor y su tipo"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "photo": "plant/p04-3-display.jpg",
           "layout": "panel",
           "vo": "El peso inicial puede venir de la máquina de balanza o digitado. Se descarga, se pesa y el neto sale solo.",
-          "onScreen": "El neto sale del bruto menos la tara"
+          "onScreen": "El peso llega de la balanza"
         }
       ]
     },

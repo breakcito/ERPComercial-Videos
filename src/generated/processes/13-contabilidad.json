@@ -6,8 +6,8 @@
   "fps": 30,
   "voice": "Paulina",
   "rate": 200,
-  "totalFrames": 1302,
-  "totalSeconds": 43.4,
+  "totalFrames": 1311,
+  "totalSeconds": 43.7,
   "brand": {
     "name": "ERP COMERCIAL",
     "fullName": "ERP para comercializadoras de minerales",
@@ -19,77 +19,77 @@
       "sceneId": "s1",
       "file": "vo/13-contabilidad/b01.mp3",
       "startFrame": 7,
-      "durationInFrames": 187,
+      "durationInFrames": 196,
       "startMs": 220,
-      "endMs": 6449
+      "endMs": 6752
     },
     {
       "id": "b02",
       "sceneId": "s2",
       "file": "vo/13-contabilidad/b02.mp3",
-      "startFrame": 227,
+      "startFrame": 236,
       "durationInFrames": 159,
-      "startMs": 7569,
-      "endMs": 12858
+      "startMs": 7872,
+      "endMs": 13161
     },
     {
       "id": "b03",
       "sceneId": "s3",
       "file": "vo/13-contabilidad/b03.mp3",
-      "startFrame": 419,
+      "startFrame": 428,
       "durationInFrames": 184,
-      "startMs": 13978,
-      "endMs": 20114
+      "startMs": 14281,
+      "endMs": 20417
     },
     {
       "id": "b04",
       "sceneId": "s4",
       "file": "vo/13-contabilidad/b04.mp3",
-      "startFrame": 637,
+      "startFrame": 646,
       "durationInFrames": 120,
-      "startMs": 21234,
-      "endMs": 25223
+      "startMs": 21537,
+      "endMs": 25525
     },
     {
       "id": "b05",
       "sceneId": "s5",
       "file": "vo/13-contabilidad/b05.mp3",
-      "startFrame": 790,
+      "startFrame": 799,
       "durationInFrames": 188,
-      "startMs": 26343,
-      "endMs": 32595
+      "startMs": 26645,
+      "endMs": 32898
     },
     {
       "id": "b06",
       "sceneId": "s6",
       "file": "vo/13-contabilidad/b06.mp3",
-      "startFrame": 1011,
+      "startFrame": 1021,
       "durationInFrames": 131,
-      "startMs": 33715,
-      "endMs": 38087
+      "startMs": 34018,
+      "endMs": 38389
     },
     {
       "id": "b_cierre",
       "sceneId": "s_cierre",
       "file": "vo/13-contabilidad/b_cierre.mp3",
-      "startFrame": 1176,
+      "startFrame": 1185,
       "durationInFrames": 72,
-      "startMs": 39207,
-      "endMs": 41593
+      "startMs": 39509,
+      "endMs": 41896
     }
   ],
   "scenes": [
     {
       "id": "s1",
       "startFrame": 0,
-      "durationInFrames": 226,
+      "durationInFrames": 236,
       "beatIds": [
         "b01"
       ]
     },
     {
       "id": "s2",
-      "startFrame": 220,
+      "startFrame": 230,
       "durationInFrames": 198,
       "beatIds": [
         "b02"
@@ -97,7 +97,7 @@
     },
     {
       "id": "s3",
-      "startFrame": 413,
+      "startFrame": 422,
       "durationInFrames": 224,
       "beatIds": [
         "b03"
@@ -105,7 +105,7 @@
     },
     {
       "id": "s4",
-      "startFrame": 630,
+      "startFrame": 639,
       "durationInFrames": 159,
       "beatIds": [
         "b04"
@@ -113,7 +113,7 @@
     },
     {
       "id": "s5",
-      "startFrame": 784,
+      "startFrame": 793,
       "durationInFrames": 227,
       "beatIds": [
         "b05"
@@ -121,7 +121,7 @@
     },
     {
       "id": "s6",
-      "startFrame": 1005,
+      "startFrame": 1014,
       "durationInFrames": 171,
       "beatIds": [
         "b06"
@@ -129,7 +129,7 @@
     },
     {
       "id": "s_cierre",
-      "startFrame": 1170,
+      "startFrame": 1179,
       "durationInFrames": 132,
       "beatIds": [
         "b_cierre"

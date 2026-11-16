@@ -26,7 +26,7 @@
           "photo": "plant/p13-1-papel.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "El mineral ya está comprado y ya está vendido. Falta registrar el comprobante y descontar los anticipos.",
+          "vo": "El mineral ya está comprado y ya está vendido. El comprobante se registra con su valorización y sus anticipos.",
           "onScreen": "El mineral ya está comprado y vendido"
         }
       ]

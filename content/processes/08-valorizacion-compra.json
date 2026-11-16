@@ -26,8 +26,8 @@
           "photo": "plant/p08-1-bocamina.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "Con las leyes ya cerradas, hay que ponerles precio a esos lotes. Y eso se negocia uno por uno.",
-          "onScreen": "Con las leyes cerradas, hay que poner precio"
+          "vo": "Con la ley cerrada, falta el precio. La propuesta de compra se negocia lote por lote con el proveedor.",
+          "onScreen": "Con la ley cerrada, falta el precio"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "photo": "plant/p08-3-lotes.jpg",
           "layout": "panel",
           "vo": "Al elegir los lotes, la valorización se arma con oro y plata, usando las leyes acordadas en el cierre.",
-          "onScreen": "Valorización en oro y plata"
+          "onScreen": "El lote, valuado en oro y plata"
         }
       ]
     },
@@ -72,7 +72,7 @@
           "photo": "plant/p08-4-precio.jpg",
           "layout": "panel",
           "vo": "Se registra la maquila, el precio internacional del mineral y las penalidades que apliquen al lote.",
-          "onScreen": "Maquila, precio internacional y penalidades"
+          "onScreen": "Maquila, precio y penalidades"
         }
       ]
     },

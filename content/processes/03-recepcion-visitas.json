@@ -26,7 +26,7 @@
           "photo": "plant/p03-1-porton.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "A la planta entra el proveedor de agua, el almuerzo del personal o un postulante a empleo. Y todos por el mismo portón.",
+          "vo": "A la planta entra el proveedor del agua, el almuerzo del personal o un postulante a empleo. Todos por el mismo portón.",
           "onScreen": "Todos entran por el mismo portón"
         }
       ]
@@ -42,7 +42,7 @@
           "photo": "plant/p03-2-recepcion.jpg",
           "layout": "panel",
           "vo": "Vigilancia registra la visita: quién es, qué documento trae y a qué hora llegó a la planta.",
-          "onScreen": "Quién es, su documento y su hora"
+          "onScreen": "Cada visita, con su responsable"
         }
       ]
     },
@@ -56,8 +56,8 @@
           "id": "b03",
           "photo": "plant/p03-3-entrevista.jpg",
           "layout": "panel",
-          "vo": "Se indica qué persona de la empresa autoriza el ingreso, para que quede claro quién responde por esa visita.",
-          "onScreen": "El autorizado por tu empresa"
+          "vo": "Se indica qué persona de la empresa autoriza el ingreso y quién responde por esa visita.",
+          "onScreen": "Quién autoriza el ingreso"
         }
       ]
     },

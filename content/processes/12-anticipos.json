@@ -26,8 +26,8 @@
           "photo": "plant/p12-1-duda.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "Un proveedor te pide un anticipo. Un cliente te adelanta una venta. Después nadie sabe en qué se usaron.",
-          "onScreen": "Anticipos dados y recibidos, sin rastro"
+          "vo": "Un proveedor pide un anticipo y un cliente adelanta una venta. Los dos se descuentan después.",
+          "onScreen": "Anticipos dados y anticipos recibidos"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "photo": "plant/p12-6-banco.jpg",
           "layout": "panel",
           "vo": "Cada anticipo tiene su código, su monto, su fecha y el beneficiario al que corresponde.",
-          "onScreen": "Código, monto y fecha"
+          "onScreen": "Cada anticipo, con su monto"
         }
       ]
     },
@@ -86,7 +86,7 @@
           "id": "b05",
           "photo": "plant/p12-4-carpeta.jpg",
           "layout": "panel",
-          "vo": "Los anticipos del proveedor se ven aplicados en cada valorización de compra en la que se usaron.",
+          "vo": "Los anticipos del proveedor aparecen aplicados en cada valorización de compra donde se usaron.",
           "onScreen": "Aplicados en cada valorización de compra"
         }
       ]

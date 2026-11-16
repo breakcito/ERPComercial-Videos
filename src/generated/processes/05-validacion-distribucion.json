@@ -6,8 +6,8 @@
   "fps": 30,
   "voice": "Paulina",
   "rate": 200,
-  "totalFrames": 1328,
-  "totalSeconds": 44.27,
+  "totalFrames": 1327,
+  "totalSeconds": 44.23,
   "brand": {
     "name": "ERP COMERCIAL",
     "fullName": "ERP para comercializadoras de minerales",
@@ -19,9 +19,9 @@
       "sceneId": "s1",
       "file": "vo/05-validacion-distribucion/b01.mp3",
       "startFrame": 7,
-      "durationInFrames": 176,
+      "durationInFrames": 175,
       "startMs": 220,
-      "endMs": 6078
+      "endMs": 6066
     },
     {
       "id": "b02",
@@ -29,8 +29,8 @@
       "file": "vo/05-validacion-distribucion/b02.mp3",
       "startFrame": 216,
       "durationInFrames": 165,
-      "startMs": 7198,
-      "endMs": 12684
+      "startMs": 7186,
+      "endMs": 12673
     },
     {
       "id": "b03",
@@ -38,8 +38,8 @@
       "file": "vo/05-validacion-distribucion/b03.mp3",
       "startFrame": 414,
       "durationInFrames": 169,
-      "startMs": 13804,
-      "endMs": 19442
+      "startMs": 13793,
+      "endMs": 19430
     },
     {
       "id": "b04",
@@ -47,8 +47,8 @@
       "file": "vo/05-validacion-distribucion/b04.mp3",
       "startFrame": 617,
       "durationInFrames": 154,
-      "startMs": 20562,
-      "endMs": 25688
+      "startMs": 20550,
+      "endMs": 25677
     },
     {
       "id": "b05",
@@ -56,17 +56,17 @@
       "file": "vo/05-validacion-distribucion/b05.mp3",
       "startFrame": 804,
       "durationInFrames": 167,
-      "startMs": 26808,
-      "endMs": 32370
+      "startMs": 26797,
+      "endMs": 32359
     },
     {
       "id": "b06",
       "sceneId": "s6",
       "file": "vo/05-validacion-distribucion/b06.mp3",
-      "startFrame": 1005,
+      "startFrame": 1004,
       "durationInFrames": 164,
-      "startMs": 33490,
-      "endMs": 38953
+      "startMs": 33479,
+      "endMs": 38942
     },
     {
       "id": "b_cierre",
@@ -74,8 +74,8 @@
       "file": "vo/05-validacion-distribucion/b_cierre.mp3",
       "startFrame": 1202,
       "durationInFrames": 72,
-      "startMs": 40073,
-      "endMs": 42460
+      "startMs": 40062,
+      "endMs": 42448
     }
   ],
   "scenes": [
@@ -97,7 +97,7 @@
     },
     {
       "id": "s3",
-      "startFrame": 408,
+      "startFrame": 407,
       "durationInFrames": 209,
       "beatIds": [
         "b03"
@@ -113,7 +113,7 @@
     },
     {
       "id": "s5",
-      "startFrame": 798,
+      "startFrame": 797,
       "durationInFrames": 206,
       "beatIds": [
         "b05"
@@ -129,7 +129,7 @@
     },
     {
       "id": "s_cierre",
-      "startFrame": 1196,
+      "startFrame": 1195,
       "durationInFrames": 132,
       "beatIds": [
         "b_cierre"

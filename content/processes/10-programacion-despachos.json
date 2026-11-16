@@ -26,8 +26,8 @@
           "photo": "plant/p10-1-fila.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "Ya compraste el mineral. Ahora hay que mandarlo al cliente, con los carros correctos para cada envío.",
-          "onScreen": "Hay que mandarlo en los carros correctos"
+          "vo": "El mineral está comprado. Falta mandarlo al cliente: cuántos vehículos, qué carga lleva cada uno y qué guía.",
+          "onScreen": "Cada salida, con su carga y su guía"
         }
       ]
     },
@@ -72,7 +72,7 @@
           "photo": "plant/p10-4-cola.jpg",
           "layout": "panel",
           "vo": "Vigilancia recibe los carros en el portón y balanza los carga, igual que en la recepción de mineral.",
-          "onScreen": "Vigilancia recibe y balanza carga"
+          "onScreen": "Vigilancia recibe y balanza la carga"
         }
       ]
     },

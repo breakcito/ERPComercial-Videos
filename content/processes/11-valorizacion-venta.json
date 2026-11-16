@@ -26,7 +26,7 @@
           "photo": "plant/p11-1-documento.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "El cliente recibió el mineral y manda su valorización con las leyes y los precios que le aplicó.",
+          "vo": "El cliente recibió el mineral y manda su valorización: la ley de cada lote y el precio que le aplica.",
           "onScreen": "El cliente manda su valorización"
         }
       ]
@@ -72,7 +72,7 @@
           "photo": "plant/p11-3-precios.jpg",
           "layout": "panel",
           "vo": "Defines las leyes y el precio de oro y plata de cada uno de los lotes enviados.",
-          "onScreen": "Leyes y precio de cada lote enviado"
+          "onScreen": "El precio que aplica el cliente"
         }
       ]
     },

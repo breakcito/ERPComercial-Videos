@@ -26,8 +26,8 @@
           "photo": "plant/p05-1-dos-camiones.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "Un lote puede llegar pesado en varios carros y en varias salidas. Cada parte tiene que quedar ordenada.",
-          "onScreen": "Un lote que llegó en varios carros"
+          "vo": "Un lote pesado puede llegar repartido en varios carros. Cada parte necesita su vehículo y su guía.",
+          "onScreen": "Un lote repartido en varios carros"
         }
       ]
     },

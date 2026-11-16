@@ -26,8 +26,8 @@
           "photo": "plant/p01-1-telefono.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "El proveedor avisa que su camión ya salió de la mina. Si nadie en planta se entera, el mineral espera afuera.",
-          "onScreen": "Si nadie lo sabe, el mineral espera"
+          "vo": "El proveedor avisa que su camión ya salió de la mina. El área comercial anota la hora estimada de llegada.",
+          "onScreen": "El proveedor avisa, el comercial anota"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "photo": "plant/p01-2-escritorio.jpg",
           "layout": "panel",
           "vo": "En ERP COMERCIAL el jefe comercial programa la llegada: empresa de transporte, vehículo, proveedor y hora estimada de ingreso.",
-          "onScreen": "Transporte, vehículo, proveedor y hora"
+          "onScreen": "La unidad, con su hora y su proveedor"
         }
       ]
     },
@@ -101,8 +101,8 @@
           "id": "b06",
           "photo": "plant/p01-5-reloj.jpg",
           "layout": "lower",
-          "vo": "El mineral entra con su hora real de llegada, y sin llamadas de ida y vuelta entre áreas.",
-          "onScreen": "Hora real de llegada, sin llamadas"
+          "vo": "El mineral entra con su hora real de llegada, y esa hora queda registrada en el ingreso.",
+          "onScreen": "La hora real de llegada, registrada"
         }
       ]
     },

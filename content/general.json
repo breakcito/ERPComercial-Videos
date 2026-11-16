@@ -10,10 +10,10 @@
   "block": "General",
   "blockNumber": "00",
   "timing": {
-    "leadIn": 0.12,
-    "pause": 0.5,
+    "leadIn": 0.16,
+    "pause": 0.58,
     "gap": 0.25,
-    "closingPause": 1.7
+    "closingPause": 1.8
   },
   "scenes": [
     {
@@ -27,8 +27,8 @@
           "photo": "plant/g01-cuaderno.jpg",
           "layout": "lower",
           "moment": "problema",
-          "vo": "El mineral se anota en cuadernos, WhatsApp y planillas. Cada uno con su versión.",
-          "onScreen": "Cada uno con su versión"
+          "vo": "El mineral entra a planta, se pesa, se valoriza y se factura. Doce etapas.",
+          "onScreen": "Cada etapa queda registrada"
         }
       ]
     },
@@ -43,7 +43,7 @@
           "photo": "plant/g02-programacion.jpg",
           "layout": "panel",
           "vo": "El área comercial programa la llegada del mineral con todos los datos.",
-          "onScreen": "Llega programado, con todos los datos"
+          "onScreen": "La unidad llega con hora y proveedor"
         }
       ]
     },
@@ -73,7 +73,7 @@
           "photo": "plant/g04-balanza.jpg",
           "layout": "panel",
           "vo": "En balanza se pesa: tara, bruto y neto. El peso real queda en el sistema.",
-          "onScreen": "Tara, bruto y neto"
+          "onScreen": "El peso real de cada unidad"
         }
       ]
     },
@@ -88,7 +88,7 @@
           "photo": "plant/g05-validacion.jpg",
           "layout": "panel",
           "vo": "El lote se valida y se distribuye en partes, con trazabilidad de cada unidad.",
-          "onScreen": "Cada parte, con su trazabilidad"
+          "onScreen": "Un lote, varias partes, con su guía"
         }
       ]
     },
@@ -117,7 +117,7 @@
           "id": "b07",
           "photo": "plant/g07-leyes.jpg",
           "layout": "panel",
-          "vo": "El laboratorio reporta las leyes y el proveedor cierra el acuerdo contigo.",
+          "vo": "El laboratorio reporta las leyes y la ley de cierre se acuerda con el proveedor.",
           "onScreen": "Leyes acordadas con el proveedor"
         }
       ]
@@ -192,7 +192,7 @@
           "id": "b12",
           "photo": "plant/g12-anticipos.jpg",
           "layout": "panel",
-          "vo": "Cada anticipo se ve, y también se ve en qué compra o factura se usó.",
+          "vo": "Cada anticipo se ve, y también en qué compra o factura se aplicó.",
           "onScreen": "Cada anticipo, con su uso"
         }
       ]
@@ -222,8 +222,8 @@
           "id": "b14",
           "photo": "plant/g14-ciclo.jpg",
           "layout": "panel",
-          "vo": "Todo el mineral, de la programación a la contabilidad, en un solo sistema.",
-          "onScreen": "Todo en un solo sistema"
+          "vo": "Todo el mineral queda seguido, desde la programación hasta la contabilidad.",
+          "onScreen": "Cada etapa, con su registro"
         }
       ]
     },
