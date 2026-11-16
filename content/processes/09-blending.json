@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "09-blending",
+  "title": "Blending",
+  "block": "Valorización",
+  "blockNumber": "09",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p09-1-acopios.jpg",
+      "role": "Área comercial",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p09-1-acopios.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "El cliente pide un mineral con leyes específicas. Los lotes que tienes comprados no dan esa ley solos.",
+          "onScreen": "El cliente pide leyes que no tienes"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p09-2-pantalla.jpg",
+      "role": "Área comercial",
+      "screen": "blending",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p09-2-pantalla.jpg",
+          "layout": "panel",
+          "vo": "En blending mezclas lotes que ya compraste, para llegar a la ley que pide el cliente.",
+          "onScreen": "Mezclas lotes que ya compraste"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p09-3-panel.jpg",
+      "role": "Área comercial",
+      "screen": "blending",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p09-3-panel.jpg",
+          "layout": "panel",
+          "vo": "En modo inteligente fijas el peso máximo, las leyes requeridas y el precio del mineral que quieres vender.",
+          "onScreen": "Peso máximo, leyes requeridas y precio"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p09-4-aerea.jpg",
+      "role": "Área comercial",
+      "screen": "blending",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p09-4-aerea.jpg",
+          "layout": "panel",
+          "vo": "El sistema busca la combinación más óptima y rentable con esos criterios, entre todos tus lotes.",
+          "onScreen": "La combinación más óptima y rentable"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p09-6-lotes.jpg",
+      "role": "Área comercial",
+      "screen": "blending",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p09-6-lotes.jpg",
+          "layout": "panel",
+          "vo": "Te muestra de qué lotes sale la mezcla, cuánto mineral entra y cuánto queda en stock.",
+          "onScreen": "De qué lotes sale la mezcla"
+        }
+      ]
+    },
+    {
+      "screen": "blending",
+      "id": "s6",
+      "photo": "plant/p09-5-manual.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p09-5-manual.jpg",
+          "layout": "lower",
+          "vo": "También puedes hacerlo manual: eliges los lotes y ves las leyes resultantes de esa combinación.",
+          "onScreen": "O manual: eliges lotes y calculas leyes"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

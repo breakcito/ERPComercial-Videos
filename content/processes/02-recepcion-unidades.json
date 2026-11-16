@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "02-recepcion-unidades",
+  "title": "Recepción de Unidades",
+  "block": "Recepción",
+  "blockNumber": "02",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p02-1-espera.jpg",
+      "role": "Vigilancia",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p02-1-espera.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "Llega un camión sin aviso. La garita lo anota en un cuaderno y el resto de la planta no se entera.",
+          "onScreen": "Un camión sin aviso"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p02-2-libreta.jpg",
+      "role": "Vigilancia",
+      "screen": "recepcion",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p02-2-libreta.jpg",
+          "layout": "panel",
+          "vo": "Vigilancia registra el ingreso: empresa de transporte, placa, conductor y tipo de vehículo pesado.",
+          "onScreen": "Transportista, placa, conductor y vehículo"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p02-3-bitacora.jpg",
+      "role": "Vigilancia",
+      "screen": "recepcion",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p02-3-bitacora.jpg",
+          "layout": "panel",
+          "vo": "Si trae guías, se registran. También los vehículos acompañantes y los acompañantes de cabina de la unidad.",
+          "onScreen": "Guías, acompañantes y cabina"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p02-6-programado.jpg",
+      "role": "Vigilancia",
+      "screen": "recepcion",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p02-6-programado.jpg",
+          "layout": "panel",
+          "vo": "Y si el camión llega sin programar, también se registra. El ingreso no depende de que alguien lo anotara antes.",
+          "onScreen": "También entra lo que llega sin programar"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p02-4-evidencia.jpg",
+      "role": "Vigilancia",
+      "screen": "recepcion",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p02-4-evidencia.jpg",
+          "layout": "panel",
+          "vo": "Puedes adjuntar fotos y videos como evidencia del ingreso, para respaldar lo que viste en la garita.",
+          "onScreen": "Fotos y videos como evidencia"
+        }
+      ]
+    },
+    {
+      "screen": "recepcion",
+      "id": "s6",
+      "photo": "plant/p02-5-salida.jpg",
+      "role": "Vigilancia",
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p02-5-salida.jpg",
+          "layout": "lower",
+          "vo": "Cuando el mineral sale de planta, marcas su salida y el recorrido completo queda cerrado en el mismo registro.",
+          "onScreen": "Ingreso y salida, con evidencia"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

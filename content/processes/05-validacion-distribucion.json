@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "05-validacion-distribucion",
+  "title": "Validación y Distribución",
+  "block": "Recepción",
+  "blockNumber": "05",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p05-1-dos-camiones.jpg",
+      "role": "Balanza",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p05-1-dos-camiones.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "Un lote puede llegar pesado en varios carros y en varias salidas. Cada parte tiene que quedar ordenada.",
+          "onScreen": "Un lote que llegó en varios carros"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p05-2-pantalla.jpg",
+      "role": "Balanza",
+      "screen": "validacion",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p05-2-pantalla.jpg",
+          "layout": "panel",
+          "vo": "En validación tomas el lote ya pesado en balanza y lo distribuyes en partes, una por unidad.",
+          "onScreen": "Tomas el lote y lo distribuyes en partes"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p05-3-documentos.jpg",
+      "role": "Balanza",
+      "screen": "validacion",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p05-3-documentos.jpg",
+          "layout": "panel",
+          "vo": "Cada parte queda con su vehículo y su guía, y así se mantiene la trazabilidad de toda la recepción.",
+          "onScreen": "Cada parte, con su vehículo y su guía"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p05-6-peso-total.jpg",
+      "role": "Balanza",
+      "screen": "validacion",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p05-6-peso-total.jpg",
+          "layout": "panel",
+          "vo": "El peso total del lote no cambia, y cada parte muestra lo que le corresponde de ese peso.",
+          "onScreen": "El peso total no cambia"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p05-4-oficina.jpg",
+      "role": "Área comercial",
+      "screen": "validacion",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p05-4-oficina.jpg",
+          "layout": "panel",
+          "vo": "Con eso, el resto de los procesos de compra puede seguir con el mineral correctamente documentado.",
+          "onScreen": "El mineral queda documentado para comprar"
+        }
+      ]
+    },
+    {
+      "screen": "validacion",
+      "id": "s6",
+      "photo": "plant/p05-5-archivo.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p05-5-archivo.jpg",
+          "layout": "lower",
+          "vo": "Validas, distribuyes y sigues con la compra. Sin volver a pasar el mineral por la balanza.",
+          "onScreen": "Validas y sigues, sin rehacer el pesaje"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

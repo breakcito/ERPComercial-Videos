@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "06-guias",
+  "title": "Guías",
+  "block": "Recepción",
+  "blockNumber": "06",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p06-1-cuaderno.jpg",
+      "role": "Vigilancia",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p06-1-cuaderno.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "Cada carro que entra a planta trae su guía de transporte. Si se anotan en un cuaderno, nadie las encuentra.",
+          "onScreen": "Cada carro trae una guía"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p06-2-guia.jpg",
+      "role": "Vigilancia",
+      "screen": "guias",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p06-2-guia.jpg",
+          "layout": "panel",
+          "vo": "En ERP COMERCIAL registras la guía de transporte o remisión de cada vehículo que trae mineral.",
+          "onScreen": "Registras la guía de cada vehículo"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p06-3-remision.jpg",
+      "role": "Vigilancia",
+      "screen": "guias",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p06-3-remision.jpg",
+          "layout": "panel",
+          "vo": "La guía agrupa los lotes o las partes de un lote que llegaron en esa misma unidad vehicular.",
+          "onScreen": "Una guía agrupa sus lotes o partes"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p06-6-peso.jpg",
+      "role": "Vigilancia",
+      "screen": "guias",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p06-6-peso.jpg",
+          "layout": "panel",
+          "vo": "Se puede indicar el peso de cada lote dentro de la guía, para completar el documento de transporte.",
+          "onScreen": "El peso de cada lote en la guía"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p06-4-laptop.jpg",
+      "role": "Vigilancia",
+      "screen": "guias",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p06-4-laptop.jpg",
+          "layout": "panel",
+          "vo": "Ese peso es solo documental. El peso real de cada lote es el que registró la balanza.",
+          "onScreen": "Documental. El real es el de balanza"
+        }
+      ]
+    },
+    {
+      "screen": "guias",
+      "id": "s6",
+      "photo": "plant/p06-5-archivo.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p06-5-archivo.jpg",
+          "layout": "lower",
+          "vo": "La guía deja trazada la recepción, lote por lote y unidad por unidad.",
+          "onScreen": "La guía deja trazada la recepción"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

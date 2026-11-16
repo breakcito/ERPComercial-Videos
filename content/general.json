@@ -1,0 +1,247 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "00-general",
+  "title": "El ciclo completo del mineral",
+  "block": "General",
+  "blockNumber": "00",
+  "timing": {
+    "leadIn": 0.12,
+    "pause": 0.5,
+    "gap": 0.25,
+    "closingPause": 1.7
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/g01-cuaderno.jpg",
+      "role": null,
+      "screen": null,
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/g01-cuaderno.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "El mineral se anota en cuadernos, WhatsApp y planillas. Cada uno con su versión.",
+          "onScreen": "Cada uno con su versión"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/g02-programacion.jpg",
+      "role": "Área comercial",
+      "screen": "programacion",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/g02-programacion.jpg",
+          "layout": "panel",
+          "vo": "El área comercial programa la llegada del mineral con todos los datos.",
+          "onScreen": "Llega programado, con todos los datos"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/g03-recepcion.jpg",
+      "role": "Vigilancia",
+      "screen": "recepcion",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/g03-recepcion.jpg",
+          "layout": "panel",
+          "vo": "Vigilancia registra el ingreso y marca la salida del vehículo.",
+          "onScreen": "Vigilancia registra el ingreso"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/g04-balanza.jpg",
+      "role": "Balanza",
+      "screen": "balanza",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/g04-balanza.jpg",
+          "layout": "panel",
+          "vo": "En balanza se pesa: tara, bruto y neto. El peso real queda en el sistema.",
+          "onScreen": "Tara, bruto y neto"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/g05-validacion.jpg",
+      "role": "Balanza",
+      "screen": "validacion",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/g05-validacion.jpg",
+          "layout": "panel",
+          "vo": "El lote se valida y se distribuye en partes, con trazabilidad de cada unidad.",
+          "onScreen": "Cada parte, con su trazabilidad"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "photo": "plant/g06-guias.jpg",
+      "role": "Vigilancia",
+      "screen": "guias",
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/g06-guias.jpg",
+          "layout": "panel",
+          "vo": "Las guías de transporte se registran y agrupan con sus lotes.",
+          "onScreen": "Guías agrupadas con sus lotes"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "photo": "plant/g07-leyes.jpg",
+      "role": "Laboratorio",
+      "screen": "leyes",
+      "beats": [
+        {
+          "id": "b07",
+          "photo": "plant/g07-leyes.jpg",
+          "layout": "panel",
+          "vo": "El laboratorio reporta las leyes y el proveedor cierra el acuerdo contigo.",
+          "onScreen": "Leyes acordadas con el proveedor"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "photo": "plant/g08-compra.jpg",
+      "role": "Área comercial",
+      "screen": "compra",
+      "beats": [
+        {
+          "id": "b08",
+          "photo": "plant/g08-compra.jpg",
+          "layout": "panel",
+          "vo": "Con las leyes cerradas, la compra se valoriza en oro y plata.",
+          "onScreen": "Compra valorizada en oro y plata"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "photo": "plant/g09-blending.jpg",
+      "role": "Área comercial",
+      "screen": "blending",
+      "beats": [
+        {
+          "id": "b09",
+          "photo": "plant/g09-blending.jpg",
+          "layout": "panel",
+          "vo": "Se mezcla lo ya comprado para llegar a las leyes que pide el cliente.",
+          "onScreen": "La mezcla que pide el cliente"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "photo": "plant/g10-despacho.jpg",
+      "role": "Área comercial",
+      "screen": "despacho",
+      "beats": [
+        {
+          "id": "b10",
+          "photo": "plant/g10-despacho.jpg",
+          "layout": "panel",
+          "vo": "El despacho se programa por vehículos y la balanza carga cada carro.",
+          "onScreen": "Despacho programado, unidad por unidad"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "photo": "plant/g11-venta.jpg",
+      "role": "Área comercial",
+      "screen": "venta",
+      "beats": [
+        {
+          "id": "b11",
+          "photo": "plant/g11-venta.jpg",
+          "layout": "panel",
+          "vo": "El cliente manda su valorización y tú la registras junto a lo enviado.",
+          "onScreen": "La valorización del cliente, registrada"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "photo": "plant/g12-anticipos.jpg",
+      "role": "Contabilidad",
+      "screen": "anticipos",
+      "beats": [
+        {
+          "id": "b12",
+          "photo": "plant/g12-anticipos.jpg",
+          "layout": "panel",
+          "vo": "Cada anticipo se ve, y también se ve en qué compra o factura se usó.",
+          "onScreen": "Cada anticipo, con su uso"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "photo": "plant/g13-contabilidad.jpg",
+      "role": "Contabilidad",
+      "screen": "contabilidad",
+      "beats": [
+        {
+          "id": "b13",
+          "photo": "plant/g13-contabilidad.jpg",
+          "layout": "panel",
+          "vo": "El comprobante de compra y el de venta se registran con sus anticipos deducidos.",
+          "onScreen": "Comprobantes con anticipos deducidos"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "photo": "plant/g14-ciclo.jpg",
+      "role": null,
+      "screen": "ciclo",
+      "beats": [
+        {
+          "id": "b14",
+          "photo": "plant/g14-ciclo.jpg",
+          "layout": "panel",
+          "vo": "Todo el mineral, de la programación a la contabilidad, en un solo sistema.",
+          "onScreen": "Todo en un solo sistema"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "screen": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Menos papel, más control, mejores decisiones. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

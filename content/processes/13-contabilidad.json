@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "13-contabilidad",
+  "title": "Contabilidad: Compra y Venta",
+  "block": "Contabilidad",
+  "blockNumber": "13",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p13-1-papel.jpg",
+      "role": "Contabilidad",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p13-1-papel.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "El mineral ya está comprado y ya está vendido. Falta registrar el comprobante y descontar los anticipos.",
+          "onScreen": "El mineral ya está comprado y vendido"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p13-2-monitor.jpg",
+      "role": "Contabilidad",
+      "screen": "contabilidad",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p13-2-monitor.jpg",
+          "layout": "panel",
+          "vo": "En compra registras el comprobante y eliges la valorización de compra acordada con el proveedor.",
+          "onScreen": "Compras: eliges la valorización acordada"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p13-3-deduccion.jpg",
+      "role": "Contabilidad",
+      "screen": "contabilidad",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p13-3-deduccion.jpg",
+          "layout": "panel",
+          "vo": "Los anticipos que esa valorización indica se deducen automáticamente, sin volver a cargarlos a mano.",
+          "onScreen": "Los anticipos se deducen solos"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p13-6-saldo.jpg",
+      "role": null,
+      "screen": "contabilidad",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p13-6-saldo.jpg",
+          "layout": "lower",
+          "vo": "El saldo del comprobante queda con lo que falta por pagar a cada proveedor.",
+          "onScreen": "El saldo, con lo que falta por pagar"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p13-4-venta.jpg",
+      "role": "Contabilidad",
+      "screen": "contabilidad",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p13-4-venta.jpg",
+          "layout": "panel",
+          "vo": "En venta registras el comprobante y eliges los lotes valorizados, en una o varias valorizaciones de venta.",
+          "onScreen": "Ventas: eliges los lotes valorizados"
+        }
+      ]
+    },
+    {
+      "screen": "contabilidad",
+      "id": "s6",
+      "photo": "plant/p13-5-escritorio.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p13-5-escritorio.jpg",
+          "layout": "lower",
+          "vo": "Y seleccionas los anticipos que te dio el cliente para deducirlos de la factura.",
+          "onScreen": "Seleccionas los anticipos del cliente"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

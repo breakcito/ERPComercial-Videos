@@ -9,7 +9,10 @@
   },
   "private": true,
   "dependencies": {
+    "@remotion/captions": "^4.0.543",
     "@remotion/cli": "4.0.543",
+    "@remotion/fonts": "^4.0.543",
+    "@remotion/media": "^4.0.543",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "remotion": "4.0.543"
@@ -26,7 +29,14 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "content": "node scripts/build-content.mjs",
+    "voice": "node scripts/generate-vo.mjs --all",
+    "music": "node scripts/generate-music.mjs",
+    "render": "node scripts/render-all.mjs",
+    "landing": "node scripts/prepare-landing.mjs",
+    "check": "node scripts/check-brief.mjs",
+    "assets": "npm run content && npm run voice"
   },
   "allowScripts": {
     "esbuild": false

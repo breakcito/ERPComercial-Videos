@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "10-programacion-despachos",
+  "title": "Programación de Despachos",
+  "block": "Despacho",
+  "blockNumber": "10",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p10-1-fila.jpg",
+      "role": "Área comercial",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p10-1-fila.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "Ya compraste el mineral. Ahora hay que mandarlo al cliente, con los carros correctos para cada envío.",
+          "onScreen": "Hay que mandarlo en los carros correctos"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p10-2-despachador.jpg",
+      "role": "Área comercial",
+      "screen": "despacho",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p10-2-despachador.jpg",
+          "layout": "panel",
+          "vo": "Eliges los lotes o blendings que vas a despachar y las toneladas exactas a enviar.",
+          "onScreen": "Eliges lotes o blendings y las toneladas"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p10-3-tablet.jpg",
+      "role": "Área comercial",
+      "screen": "despacho",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p10-3-tablet.jpg",
+          "layout": "panel",
+          "vo": "El stock se reparte entre los vehículos y se generan las programaciones de ingreso de cada unidad.",
+          "onScreen": "El stock se reparte entre los vehículos"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p10-4-cola.jpg",
+      "role": "Vigilancia",
+      "screen": "despacho",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p10-4-cola.jpg",
+          "layout": "panel",
+          "vo": "Vigilancia recibe los carros en el portón y balanza los carga, igual que en la recepción de mineral.",
+          "onScreen": "Vigilancia recibe y balanza carga"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p10-5-guia.jpg",
+      "role": "Área comercial",
+      "screen": "despacho",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p10-5-guia.jpg",
+          "layout": "panel",
+          "vo": "En el módulo registras la guía de cada vehículo que sale con mineral hacia el cliente.",
+          "onScreen": "La guía de cada vehículo"
+        }
+      ]
+    },
+    {
+      "screen": "despacho",
+      "id": "s6",
+      "photo": "plant/p10-6-llegada.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p10-6-llegada.jpg",
+          "layout": "lower",
+          "vo": "Y confirmas la llegada al cliente con el código, el peso y las leyes que él registró en su proceso.",
+          "onScreen": "Llegada confirmada con código, peso y leyes"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

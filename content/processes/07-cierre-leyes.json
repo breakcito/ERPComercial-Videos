@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "07-cierre-leyes",
+  "title": "Cierre de Leyes",
+  "block": "Valorización",
+  "blockNumber": "07",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p07-1-muestras.jpg",
+      "role": "Laboratorio",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p07-1-muestras.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "El mineral llegó y ya fue pesado. Falta lo más discutido: la ley. Y no todos miden igual.",
+          "onScreen": "Falta la ley, y no todos miden igual"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p07-2-informe.jpg",
+      "role": "Laboratorio",
+      "screen": "leyes",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p07-2-informe.jpg",
+          "layout": "panel",
+          "vo": "Por cada análisis registras el laboratorio donde se hizo, quién se hace cargo y el número de ensayo.",
+          "onScreen": "Laboratorio, responsable y ensayo"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p07-3-analizador.jpg",
+      "role": "Laboratorio",
+      "screen": "leyes",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p07-3-analizador.jpg",
+          "layout": "panel",
+          "vo": "Se registran las leyes de oro y plata, la humedad del mineral y la recuperación obtenida.",
+          "onScreen": "Oro, plata, humedad y recuperación"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p07-4-dos-analisis.jpg",
+      "role": "Laboratorio",
+      "screen": "leyes",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p07-4-dos-analisis.jpg",
+          "layout": "panel",
+          "vo": "Los análisis se agrupan y se define la ley de cierre: el promedio o la ley acordada con el proveedor.",
+          "onScreen": "Ley de cierre: promedio o la acordada"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p07-5-bolsita.jpg",
+      "role": null,
+      "screen": "leyes",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p07-5-bolsita.jpg",
+          "layout": "lower",
+          "vo": "Si el proveedor mandó muestras antes de enviar su mineral, esos análisis se enlazan al lote recibido.",
+          "onScreen": "Las muestras previas se enlazan al lote"
+        }
+      ]
+    },
+    {
+      "screen": "leyes",
+      "id": "s6",
+      "photo": "plant/p07-6-cierre.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p07-6-cierre.jpg",
+          "layout": "lower",
+          "vo": "Con las leyes cerradas y acordadas por las dos partes, la compra ya tiene su base para valorizarse.",
+          "onScreen": "Leyes cerradas, base para comprar"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "03-recepcion-visitas",
+  "title": "Recepción de Visitas",
+  "block": "Recepción",
+  "blockNumber": "03",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p03-1-porton.jpg",
+      "role": "Vigilancia",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p03-1-porton.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "A la planta entra el proveedor de agua, el almuerzo del personal o un postulante a empleo. Y todos por el mismo portón.",
+          "onScreen": "Todos entran por el mismo portón"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p03-2-recepcion.jpg",
+      "role": "Vigilancia",
+      "screen": "visitas",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p03-2-recepcion.jpg",
+          "layout": "panel",
+          "vo": "Vigilancia registra la visita: quién es, qué documento trae y a qué hora llegó a la planta.",
+          "onScreen": "Quién es, su documento y su hora"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p03-3-entrevista.jpg",
+      "role": "Vigilancia",
+      "screen": "visitas",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p03-3-entrevista.jpg",
+          "layout": "panel",
+          "vo": "Se indica qué persona de la empresa autoriza el ingreso, para que quede claro quién responde por esa visita.",
+          "onScreen": "El autorizado por tu empresa"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p03-6-motivo.jpg",
+      "role": "Vigilancia",
+      "screen": "visitas",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p03-6-motivo.jpg",
+          "layout": "panel",
+          "vo": "El motivo también queda registrado: entrega de agua, almuerzo del personal o entrevista de trabajo.",
+          "onScreen": "El motivo de la visita, registrado"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p03-4-camara.jpg",
+      "role": "Vigilancia",
+      "screen": "visitas",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p03-4-camara.jpg",
+          "layout": "panel",
+          "vo": "Puedes adjuntar fotos y videos como evidencia, y marcar la salida cuando la visita termina.",
+          "onScreen": "Evidencia y marca de salida"
+        }
+      ]
+    },
+    {
+      "screen": "visitas",
+      "id": "s6",
+      "photo": "plant/p03-5-lista.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p03-5-lista.jpg",
+          "layout": "lower",
+          "vo": "Queda un registro de visitas con nombre, motivo, documento y responsable de autorizar cada ingreso.",
+          "onScreen": "Registro de visitas con responsable"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

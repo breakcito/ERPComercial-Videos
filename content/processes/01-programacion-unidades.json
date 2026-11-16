@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "01-programacion-unidades",
+  "title": "Programación de Unidades",
+  "block": "Recepción",
+  "blockNumber": "01",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p01-1-telefono.jpg",
+      "role": "Jefe comercial",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p01-1-telefono.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "El proveedor avisa que su camión ya salió de la mina. Si nadie en planta se entera, el mineral espera afuera.",
+          "onScreen": "Si nadie lo sabe, el mineral espera"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p01-2-escritorio.jpg",
+      "role": "Jefe comercial",
+      "screen": "programacion",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p01-2-escritorio.jpg",
+          "layout": "panel",
+          "vo": "En ERP COMERCIAL el jefe comercial programa la llegada: empresa de transporte, vehículo, proveedor y hora estimada de ingreso.",
+          "onScreen": "Transporte, vehículo, proveedor y hora"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p01-3-pantalla.jpg",
+      "role": "Jefe comercial",
+      "screen": "programacion",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p01-3-pantalla.jpg",
+          "layout": "panel",
+          "vo": "Las guías se pueden agregar de forma opcional, solo si el proveedor ya las tiene a la mano en ese momento.",
+          "onScreen": "Guías opcionales"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p01-6-programacion.jpg",
+      "role": "Jefe comercial",
+      "screen": "programacion",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p01-6-programacion.jpg",
+          "layout": "panel",
+          "vo": "Queda todo en una sola programación, con su hora, su unidad, su proveedor y el estado de la llegada.",
+          "onScreen": "Una sola programación, con su hora"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p01-4-garita.jpg",
+      "role": "Vigilancia",
+      "screen": "programacion",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p01-4-garita.jpg",
+          "layout": "panel",
+          "vo": "La programación aparece en el área de vigilancia, que solo tiene que confirmar que el vehículo llegó.",
+          "onScreen": "Vigilancia solo confirma la llegada"
+        }
+      ]
+    },
+    {
+      "screen": "programacion",
+      "id": "s6",
+      "photo": "plant/p01-5-reloj.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p01-5-reloj.jpg",
+          "layout": "lower",
+          "vo": "El mineral entra con su hora real de llegada, y sin llamadas de ida y vuelta entre áreas.",
+          "onScreen": "Hora real de llegada, sin llamadas"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "11-valorizacion-venta",
+  "title": "Valorización de Venta",
+  "block": "Despacho",
+  "blockNumber": "11",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p11-1-documento.jpg",
+      "role": "Área comercial",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p11-1-documento.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "El cliente recibió el mineral y manda su valorización con las leyes y los precios que le aplicó.",
+          "onScreen": "El cliente manda su valorización"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p11-2-pantalla.jpg",
+      "role": "Área comercial",
+      "screen": "venta",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p11-2-pantalla.jpg",
+          "layout": "panel",
+          "vo": "En valorización de venta eliges los lotes que se enviaron en el despacho, uno o varios.",
+          "onScreen": "Eliges los lotes enviados en el despacho"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p11-5-lote.jpg",
+      "role": "Área comercial",
+      "screen": "venta",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p11-5-lote.jpg",
+          "layout": "panel",
+          "vo": "Puedes tomar uno o varios lotes de una misma valorización, según lo que haya enviado el cliente.",
+          "onScreen": "Uno o varios lotes, en una valorización"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p11-3-precios.jpg",
+      "role": "Área comercial",
+      "screen": "venta",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p11-3-precios.jpg",
+          "layout": "panel",
+          "vo": "Defines las leyes y el precio de oro y plata de cada uno de los lotes enviados.",
+          "onScreen": "Leyes y precio de cada lote enviado"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p11-6-total.jpg",
+      "role": null,
+      "screen": "venta",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p11-6-total.jpg",
+          "layout": "lower",
+          "vo": "El sistema calcula el valor de cada lote con esos precios y arma el total de la venta.",
+          "onScreen": "El valor de cada lote, calculado"
+        }
+      ]
+    },
+    {
+      "screen": "venta",
+      "id": "s6",
+      "photo": "plant/p11-4-escritorio.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p11-4-escritorio.jpg",
+          "layout": "lower",
+          "vo": "La valorización queda lista para registrar el comprobante de venta y emitir la factura.",
+          "onScreen": "Lista para registrar el comprobante"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "04-balanza",
+  "title": "Balanza",
+  "block": "Recepción",
+  "blockNumber": "04",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p04-1-bascula.jpg",
+      "role": "Balanza",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p04-1-bascula.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "El camión llega con mineral. En la balanza hay que anotar tara, bruto y neto, sin equivocar ni un kilo.",
+          "onScreen": "Tara, bruto y neto, sin errores"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p04-2-formulario.jpg",
+      "role": "Balanza",
+      "screen": "balanza",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p04-2-formulario.jpg",
+          "layout": "panel",
+          "vo": "El lote se crea con código automático o digitado: proveedor, producto aurífero o polimetálico y tipo de material.",
+          "onScreen": "Proveedor, producto y tipo de material"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p04-3-display.jpg",
+      "role": "Balanza",
+      "screen": "balanza",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p04-3-display.jpg",
+          "layout": "panel",
+          "vo": "El peso inicial puede venir de la máquina de balanza o digitado. Se descarga, se pesa y el neto sale solo.",
+          "onScreen": "El neto sale del bruto menos la tara"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p04-4-particion.jpg",
+      "role": "Balanza",
+      "screen": "balanza",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p04-4-particion.jpg",
+          "layout": "panel",
+          "vo": "Si el lote llega en varios carros, se marca particionado y se pesa por partes hasta completarlo.",
+          "onScreen": "Lotes particionados, pesados por partes"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p04-5-carga.jpg",
+      "role": "Balanza",
+      "screen": "balanza",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p04-5-carga.jpg",
+          "layout": "panel",
+          "vo": "Cuando el camión viene a cargar, se registra la tara, se carga el mineral y se pesa el bruto.",
+          "onScreen": "Cuando viene a cargar: tara y bruto"
+        }
+      ]
+    },
+    {
+      "screen": "balanza",
+      "id": "s6",
+      "photo": "plant/p04-6-resumen.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p04-6-resumen.jpg",
+          "layout": "lower",
+          "vo": "Todos los lotes y blendings pesados se ven en el resumen de balanza, con su peso y su unidad.",
+          "onScreen": "Todo pesado, en el resumen de balanza"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

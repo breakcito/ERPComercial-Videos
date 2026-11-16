@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "fps": 30,
+  "id": "08-valorizacion-compra",
+  "title": "Valorización de Compra",
+  "block": "Valorización",
+  "blockNumber": "08",
+  "timing": {
+    "leadIn": 0.22,
+    "pause": 1.1,
+    "gap": 0.3,
+    "closingPause": 1.8
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "photo": "plant/p08-1-bocamina.jpg",
+      "role": "Área comercial",
+      "beats": [
+        {
+          "id": "b01",
+          "photo": "plant/p08-1-bocamina.jpg",
+          "layout": "lower",
+          "moment": "problema",
+          "vo": "Con las leyes ya cerradas, hay que ponerles precio a esos lotes. Y eso se negocia uno por uno.",
+          "onScreen": "Con las leyes cerradas, hay que poner precio"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "photo": "plant/p08-2-propuesta.jpg",
+      "role": "Área comercial",
+      "screen": "compra",
+      "beats": [
+        {
+          "id": "b02",
+          "photo": "plant/p08-2-propuesta.jpg",
+          "layout": "panel",
+          "vo": "Registras la propuesta de compra y eliges el proveedor. Aparecen todos los lotes que tiene registrados.",
+          "onScreen": "Eliges el proveedor y aparecen sus lotes"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "photo": "plant/p08-3-lotes.jpg",
+      "role": "Área comercial",
+      "screen": "compra",
+      "beats": [
+        {
+          "id": "b03",
+          "photo": "plant/p08-3-lotes.jpg",
+          "layout": "panel",
+          "vo": "Al elegir los lotes, la valorización se arma con oro y plata, usando las leyes acordadas en el cierre.",
+          "onScreen": "Valorización en oro y plata"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "photo": "plant/p08-4-precio.jpg",
+      "role": "Área comercial",
+      "screen": "compra",
+      "beats": [
+        {
+          "id": "b04",
+          "photo": "plant/p08-4-precio.jpg",
+          "layout": "panel",
+          "vo": "Se registra la maquila, el precio internacional del mineral y las penalidades que apliquen al lote.",
+          "onScreen": "Maquila, precio internacional y penalidades"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "photo": "plant/p08-5-aprobacion.jpg",
+      "role": "Área comercial",
+      "screen": "compra",
+      "beats": [
+        {
+          "id": "b05",
+          "photo": "plant/p08-5-aprobacion.jpg",
+          "layout": "panel",
+          "vo": "Cuando la propuesta se aprueba, el sistema genera la valorización de compra con todos esos conceptos.",
+          "onScreen": "Aprobada la propuesta, se genera la valorización"
+        }
+      ]
+    },
+    {
+      "screen": "compra",
+      "id": "s6",
+      "photo": "plant/p08-6-anticipo.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b06",
+          "photo": "plant/p08-6-anticipo.jpg",
+          "layout": "lower",
+          "vo": "Y desde ahí puedes aplicar los anticipos que le diste al proveedor en esa compra.",
+          "onScreen": "Aplicas los anticipos del proveedor"
+        }
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "photo": "plant/cierre-amanecer.jpg",
+      "role": null,
+      "beats": [
+        {
+          "id": "b_cierre",
+          "photo": "plant/cierre-amanecer.jpg",
+          "layout": "center",
+          "moment": "marca",
+          "vo": "ERP COMERCIAL. Solicita tu demo.",
+          "onScreen": "Web: intelli-apps.com · WhatsApp: 912 800 115"
+        }
+      ]
+    }
+  ]
+}

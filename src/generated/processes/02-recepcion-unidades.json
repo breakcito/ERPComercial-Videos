@@ -1,0 +1,139 @@
+{
+  "id": "02-recepcion-unidades",
+  "title": "Recepción de Unidades",
+  "block": "Recepción",
+  "blockNumber": "02",
+  "fps": 30,
+  "voice": "Paulina",
+  "rate": 200,
+  "totalFrames": 1444,
+  "totalSeconds": 48.13,
+  "brand": {
+    "name": "ERP COMERCIAL",
+    "fullName": "ERP para comercializadoras de minerales",
+    "tagline": "Menos papel, más control, mejores decisiones."
+  },
+  "beats": [
+    {
+      "id": "b01",
+      "sceneId": "s1",
+      "file": "vo/02-recepcion-unidades/b01.mp3",
+      "startFrame": 7,
+      "durationInFrames": 167,
+      "startMs": 220,
+      "endMs": 5799
+    },
+    {
+      "id": "b02",
+      "sceneId": "s2",
+      "file": "vo/02-recepcion-unidades/b02.mp3",
+      "startFrame": 208,
+      "durationInFrames": 194,
+      "startMs": 6919,
+      "endMs": 13380
+    },
+    {
+      "id": "b03",
+      "sceneId": "s3",
+      "file": "vo/02-recepcion-unidades/b03.mp3",
+      "startFrame": 435,
+      "durationInFrames": 196,
+      "startMs": 14500,
+      "endMs": 21019
+    },
+    {
+      "id": "b04",
+      "sceneId": "s4",
+      "file": "vo/02-recepcion-unidades/b04.mp3",
+      "startFrame": 664,
+      "durationInFrames": 194,
+      "startMs": 22139,
+      "endMs": 28600
+    },
+    {
+      "id": "b05",
+      "sceneId": "s5",
+      "file": "vo/02-recepcion-unidades/b05.mp3",
+      "startFrame": 892,
+      "durationInFrames": 172,
+      "startMs": 29720,
+      "endMs": 35463
+    },
+    {
+      "id": "b06",
+      "sceneId": "s6",
+      "file": "vo/02-recepcion-unidades/b06.mp3",
+      "startFrame": 1097,
+      "durationInFrames": 187,
+      "startMs": 36583,
+      "endMs": 42818
+    },
+    {
+      "id": "b_cierre",
+      "sceneId": "s_cierre",
+      "file": "vo/02-recepcion-unidades/b_cierre.mp3",
+      "startFrame": 1318,
+      "durationInFrames": 72,
+      "startMs": 43938,
+      "endMs": 46325
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "durationInFrames": 207,
+      "beatIds": [
+        "b01"
+      ]
+    },
+    {
+      "id": "s2",
+      "startFrame": 201,
+      "durationInFrames": 233,
+      "beatIds": [
+        "b02"
+      ]
+    },
+    {
+      "id": "s3",
+      "startFrame": 428,
+      "durationInFrames": 235,
+      "beatIds": [
+        "b03"
+      ]
+    },
+    {
+      "id": "s4",
+      "startFrame": 658,
+      "durationInFrames": 233,
+      "beatIds": [
+        "b04"
+      ]
+    },
+    {
+      "id": "s5",
+      "startFrame": 885,
+      "durationInFrames": 212,
+      "beatIds": [
+        "b05"
+      ]
+    },
+    {
+      "id": "s6",
+      "startFrame": 1091,
+      "durationInFrames": 227,
+      "beatIds": [
+        "b06"
+      ]
+    },
+    {
+      "id": "s_cierre",
+      "startFrame": 1312,
+      "durationInFrames": 132,
+      "beatIds": [
+        "b_cierre"
+      ]
+    }
+  ]
+}
